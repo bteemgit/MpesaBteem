@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/mainTitileBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#aa2222"
+        android:paddingBottom="@dimen/normal_padding"
+        android:paddingLeft="@dimen/basic_padding"
+        android:paddingRight="@dimen/basic_padding"
+        android:paddingTop="@dimen/normal_padding"
+        android:weightSum="10" >
+
+        <ImageView
+            android:id="@+id/titleBar_IV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:src="@drawable/recenticonsmall" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/titleText"
+            style="@style/text_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="9"
+            android:gravity="left"
+            android:text="RECENT TRANSACTION"
+            android:textSize="@dimen/header_text_size" />
+    </LinearLayout>
+
+</LinearLayout>

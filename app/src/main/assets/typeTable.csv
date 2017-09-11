@@ -1,0 +1,17 @@
+1,1,Sent
+2,2,Recieve
+3,1,Withdraw
+4,2,Deposit
+5,1,Airtime on
+6,1,Airtime for
+7,1,Recharge
+8,1,Merchant
+9,1,Transfer
+10,2,Airtime
+11,1,Withdrawal
+12,1,Withdrawal bank
+13,2,Transfer bank
+14,1,Recharge(Self)
+15,1,Recharge(Another)
+16,2,Merchant receive
+17,1,Merchant sent

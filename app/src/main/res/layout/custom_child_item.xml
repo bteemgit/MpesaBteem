@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    android:gravity="center_vertical"
+   >
+
+    <LinearLayout
+        android:id="@+id/item_layout"
+        android:layout_width="match_parent"
+         android:padding="@dimen/basic_padding" 
+        android:layout_height="match_parent"
+        android:weightSum="7" >
+
+        <TextView
+            android:id="@+id/nameTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4.15"
+            android:singleLine="true"
+            android:text="Arun Antoney"
+            android:textColor="#000000"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.15"
+            android:gravity="right"
+            android:text="2000"
+            android:textSize="@dimen/text_size" />
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight=".7"
+            android:src="@drawable/arrow"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+</LinearLayout>

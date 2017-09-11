@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MpesaBteem</string>
+	 <string name="hello_world">Hello world!</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_recent">RecentActivity</string>
+    <string name="title_activity_time">TimeActivity</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_person">PersonActivity</string>
+    <string name="title_activity_type">TypeActivity</string>
+
+    <string-array name="headerList">
+        <item>All time</item>
+        <item>Last Month</item>
+        <item>Last year</item>
+    </string-array>
+
+    <string name="title_activity_print_dialog">PrintDialogActivity</string>
+    <string name="title_activity_configuration">ConfigurationActivity</string>
+    <string name="password">Password</string>
+    <string name="confirm_passwod">Confirm Passwod</string>
+    <string name="old_password">Old Password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="string_message_to_attach_file">First attach file to upload</string>
+    <string name="quit">Exit App</string>
+    <string name="string_help_text"> The permission is missing.\n\nTo grant this permission click on Settings, then Permissions and turn the permission on.\n\nThen click back twice to return to the app</string>
+    <string name="string_upload_success">Profile ImageSuccesfully Uploaded</string>
+    <string name="string_upload_fail">Profile Image upload failed</string>
+</resources>

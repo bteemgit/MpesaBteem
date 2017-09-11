@@ -1,0 +1,5 @@
+1,1,1,EN,([A-Z0-9]+)\s*Confirmed on  ((?:[1-2]?[1-9]|[1-2]0|3[0-1])\/(?:[1-9]|1[0-2])\/(?:\d\d)) at ([1]?\d:[0-5]\d [A|P]M)Ksh(\d+(:?\,\d+)?(\,\d+)?(\.\d{1,4})?) received from ([0-9\(\)\s]+) ([A-Za-z0-9\(\)\s]+).New Account  balance is Ksh(\d+(:?\,\d+)?(\,\d+)?(\.\d{1,4})?)
+2,1,2,EN,(?i)trans. ID: ([0-9]+\s)You have received ([.|\d]+\s*)ksh from ([A-Za-z ]+\s*). Your available balance is ([.|\d]+\s*)ksh\.
+3,1,3,EN,
+4,1,10,EN,(?i)trans. ID: ([0-9]+\s)You have received Airtime of ([.|\d]+\s*)ksh from your ([A-Za-z]+\s*)account
+5,1,9,EN,(?i)trans. ID: ([0-9]+\s)transfer ([.|\d]+\s*)ksh to ([0-9]+\s*)\.
